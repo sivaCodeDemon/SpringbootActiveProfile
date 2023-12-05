@@ -1,0 +1,16 @@
+server.port: 8081
+message: Dev is taking.
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/usa?autoReconnect=true&useSSL=false
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: usa
+    password: usa
+  jpa:
+    hibernate:
+      ddl-auto: update
+    generate-ddl: true
+    show-sql: true
+
+

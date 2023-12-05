@@ -1,0 +1,9 @@
+server.port: 8083
+message: prod is taking.
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/uk?autoReconnect=true&useSSL=false
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: uk
+    password: uk
